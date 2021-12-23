@@ -1,3 +1,5 @@
+package yang
+
 class Immigration {
     fun solution(n: Int, times: IntArray): Long {
         var min: Long = n.toLong() / times.size * times.minOf { it }.toLong()

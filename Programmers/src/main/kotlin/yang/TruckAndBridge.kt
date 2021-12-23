@@ -1,3 +1,5 @@
+package yang
+
 import java.util.*
 
 class TruckAndBridge {

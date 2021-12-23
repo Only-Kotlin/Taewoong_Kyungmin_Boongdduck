@@ -1,3 +1,5 @@
+package yang
+
 class GymClothes {
     /**
     전체 학생의 수 n,
