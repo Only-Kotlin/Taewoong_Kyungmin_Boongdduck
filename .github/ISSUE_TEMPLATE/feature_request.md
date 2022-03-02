@@ -7,27 +7,19 @@ assignees: ''
 
 ---
 
-import java.io.BufferedReader
-    import java.io.InputStreamReader
+## 문제
+> 무슨문제를 푸셨나요
 
-    fun main() {
-        val br = BufferedReader(InputStreamReader(System.`in`))
-        val (a,b) = br.readLine()!!.split(' ')
+Link : 
 
+--- 
 
-        println(gcd(a.toInt(), b.toInt()))
-        print(lcm(a.toInt(), b.toInt()))
+## 설명
 
-    }
-    
-    fun gcd(a: Int, b: Int): Int {
-        return if (b == 0) {
-            a
-        } else {
-            gcd(b, a % b)
-        }
-    }
+1. :
+2. :
+3. :
+4. :
 
-    fun lcm(a: Int, b: Int): Int {
-        return a * b / gcd(a, b)
-    }
+---
+## 후기
