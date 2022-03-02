@@ -1,25 +1,33 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: "[ADD] "
-labels: add
-assignees: patrick0422
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
-## 문제
-> 무슨문제를 푸셨나요
+import java.io.BufferedReader
+    import java.io.InputStreamReader
 
-Link : 
+    fun main() {
+        val br = BufferedReader(InputStreamReader(System.`in`))
+        val (a,b) = br.readLine()!!.split(' ')
 
---- 
 
-## 설명
+        println(gcd(a.toInt(), b.toInt()))
+        print(lcm(a.toInt(), b.toInt()))
 
-1. :
-2. :
-3. :
-4. :
+    }
+    
+    fun gcd(a: Int, b: Int): Int {
+        return if (b == 0) {
+            a
+        } else {
+            gcd(b, a % b)
+        }
+    }
 
----
-## 후기
+    fun lcm(a: Int, b: Int): Int {
+        return a * b / gcd(a, b)
+    }
