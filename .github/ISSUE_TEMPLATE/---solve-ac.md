@@ -1,5 +1,5 @@
 ---
-name: Feature request
+name: 백준 solve.ac
 about: Suggest an idea for this project
 title: ''
 labels: add
