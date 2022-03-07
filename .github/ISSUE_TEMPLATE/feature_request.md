@@ -2,24 +2,10 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ''
-labels: ''
-assignees: ''
+labels: add
+assignees: ckrudals
 
 ---
 
-## 문제
-> 무슨문제를 푸셨나요
-
-Link : 
-
---- 
-
-## 설명
-
-1. :
-2. :
-3. :
-4. :
-
----
-## 후기
+## 무슨 문제를 풀 거에요?
+[문제]()
